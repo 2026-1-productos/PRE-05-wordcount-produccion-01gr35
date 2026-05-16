@@ -1,10 +1,9 @@
 """Autograding script for student homework."""
 
 import os
-import subprocess
 
 
-def test_homework():
+def test_word_count():
     """Test Word Count"""
 
     for path in [
