@@ -9,7 +9,7 @@ def test_word_count():
 
 for path in [
     "Dockerfile",
-    ".dockerignore",
+    ".Dockerignore",
 ]:
     if not os.path.exists(path):
         raise Exception(f"'{path}' directory does not exist")
